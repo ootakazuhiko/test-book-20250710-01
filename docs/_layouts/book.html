@@ -12,6 +12,13 @@
         <!-- Header -->
         <header class="book-header">
             <div class="header-left">
+                <button class="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
                 <a href="{{ '/' | relative_url }}" class="header-title">
                     <h1>{{ site.title }}</h1>
                 </a>
@@ -37,12 +44,23 @@
                 <article class="page-content">
                     {{ content }}
                 </article>
+
+                <!-- Page Navigation -->
+                {% unless page.url == '/' %}
+                {% include page-navigation.html %}
+                {% endunless %}
             </div>
         </main>
     </div>
 
+    <!-- Overlay for mobile sidebar -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
     <footer style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #eee;">
         <p>{{ site.title }} • Built with Jekyll • {{ site.time | date: "%Y-%m-%d" }}</p>
     </footer>
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/sidebar.js' | relative_url }}"></script>
 </body>
 </html>
