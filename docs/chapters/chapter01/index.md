@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: book
 title: "第1章：なぜ今、論理的思考が必要なのか"
 ---
 

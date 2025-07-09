@@ -13,3 +13,7 @@ plugins:
 
 # Build settings
 markdown: kramdown
+
+# Repository settings
+repository:
+  github: "https://github.com/ootakazuhiko/test-book-20250710-01"

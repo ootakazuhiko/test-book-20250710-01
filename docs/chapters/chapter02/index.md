@@ -3,9 +3,9 @@ layout: book
 title: "第2章：論理的思考の基本構造"
 ---
 
-# 第2章：論理的思考の基本構造
+[← トップに戻る]({{ site.baseurl }}/)
 
-{% include navigation.html %}
+# 第2章：論理的思考の基本構造
 
 
 ## 学習目標
