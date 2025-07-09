@@ -3,9 +3,9 @@ layout: book
 title: "第5章：AIへの指示（プロンプト）設計"
 ---
 
-# 第5章：AIへの指示（プロンプト）設計
+[← トップに戻る]({{ site.baseurl }}/)
 
-{% include navigation.html %}
+# 第5章：AIへの指示（プロンプト）設計
 
 
 ## 学習目標

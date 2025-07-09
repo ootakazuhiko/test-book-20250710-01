@@ -3,9 +3,9 @@ layout: book
 title: "第4章：問題解決の論理プロセス"
 ---
 
-# 第4章：問題解決の論理プロセス
+[← トップに戻る]({{ site.baseurl }}/)
 
-{% include navigation.html %}
+# 第4章：問題解決の論理プロセス
 
 
 ## 学習目標

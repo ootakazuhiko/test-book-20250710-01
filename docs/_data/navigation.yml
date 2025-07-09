@@ -1,4 +1,4 @@
-# Auto-generated navigation data
+# Navigation data
 introduction:
   - title: "はじめに"
     path: "/introduction/"
@@ -14,34 +14,7 @@ chapters:
     path: "/chapters/chapter04/"
   - title: "第5章：AIへの指示（プロンプト）設計"
     path: "/chapters/chapter05/"
-  - title: "第6章：AIの出力評価と改善"
-    path: "/chapters/chapter06/"
-  - title: "第7章：論理的検証と批判的思考"
-    path: "/chapters/chapter07/"
-  - title: "第8章：AIとの創造的協働"
-    path: "/chapters/chapter08/"
-  - title: "第9章：論理的な文書作成"
-    path: "/chapters/chapter09/"
-  - title: "第10章：説得力のあるプレゼンテーション"
-    path: "/chapters/chapter10/"
-  - title: "第11章：戦略的な交渉術"
-    path: "/chapters/chapter11/"
-  - title: "第12章：効果的な会議・議論術"
-    path: "/chapters/chapter12/"
-  - title: "第13章：論理的な意思決定"
-    path: "/chapters/chapter13/"
-  - title: "第14章：日常業務での実践"
-    path: "/chapters/chapter14/"
-  - title: "第15章：論理的思考を活かしたリーダーシップ"
-    path: "/chapters/chapter15/"
-  - title: "第16章：プロジェクト管理と問題解決"
-    path: "/chapters/chapter16/"
-  - title: "第17章：継続的学習と思考力向上"
-    path: "/chapters/chapter17/"
 
 appendices:
   - title: "付録A：実践的なツール・テンプレート集"
     path: "/appendices/appendix-a/"
-
-afterword:
-

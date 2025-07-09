@@ -3,9 +3,9 @@ layout: book
 title: "第3章：情報の整理と分析"
 ---
 
-# 第3章：情報の整理と分析
+[← トップに戻る]({{ site.baseurl }}/)
 
-{% include navigation.html %}
+# 第3章：情報の整理と分析
 
 
 ## 学習目標
