@@ -1,11 +1,11 @@
 ---
-layout: book
+layout: default
 title: "第1章：なぜ今、論理的思考が必要なのか"
 ---
 
-# 第1章：なぜ今、論理的思考が必要なのか
+[← トップに戻る]({{ site.baseurl }}/)
 
-{% include navigation.html %}
+# 第1章：なぜ今、論理的思考が必要なのか
 
 
 ## 学習目標
