@@ -31,11 +31,17 @@ class BookBuilder {
 
   async copyAssets() {
     // Copy CSS and JS
-    await fs.copy('docs/assets', path.join(this.outputDir, 'assets'));
+    if (await fs.pathExists('docs/assets')) {
+      await fs.copy('docs/assets', path.join(this.outputDir, 'assets'));
+    }
     
     // Copy layouts and includes
-    await fs.copy('docs/_layouts', path.join(this.outputDir, '_layouts'));
-    await fs.copy('docs/_includes', path.join(this.outputDir, '_includes'));
+    if (await fs.pathExists('docs/_layouts')) {
+      await fs.copy('docs/_layouts', path.join(this.outputDir, '_layouts'));
+    }
+    if (await fs.pathExists('docs/_includes')) {
+      await fs.copy('docs/_includes', path.join(this.outputDir, '_includes'));
+    }
   }
 
   async copyJekyllConfig() {

@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
+<html lang="ja">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        h1 { color: #333; }
+        a { color: #0366d6; }
+    </style>
 </head>
 <body>
-    {{ content }}
+    <main>
+        {{ content }}
+    </main>
+    <hr>
+    <footer>
+        <p>Built with Jekyll • {{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
+    </footer>
 </body>
 </html>
