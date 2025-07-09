@@ -1,0 +1,33 @@
+{
+  "book": {
+    "title": "AI時代に差がつく論理的思考と表現力",
+    "description": "AI時代に必要な論理的思考力と効果的な表現力を身につけるための実践ガイド",
+    "language": "ja",
+    "author": {
+      "name": "ITDO Inc. (株式会社アイティードゥ)",
+      "email": "knowledge@itdo.jp",
+      "github": "itdojp"
+    },
+    "repository": {
+      "github": "https://github.com/ootakazuhiko/test-book-20250710-01",
+      "zenn": "books/LogicalThinking-AI-Era-Guide"
+    }
+  },
+  "structure": {
+    "introduction": "src/introduction",
+    "chapters": "src/chapters",
+    "appendices": "src/appendices",
+    "afterword": "src/afterword"
+  },
+  "output": {
+    "directory": "docs",
+    "baseUrl": "/test-book-20250710-01"
+  },
+  "build": {
+    "contentExcludePatterns": [
+      "<!-- PRIVATE:",
+      "<!-- TODO:",
+      "<!-- DRAFT:"
+    ]
+  }
+}

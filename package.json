@@ -1,0 +1,22 @@
+{
+  "name": "logical-thinking-ai-era-guide",
+  "version": "1.0.0",
+  "description": "AI時代に差がつく論理的思考と表現力",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "rm -rf docs/*",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "marked": "^4.3.0",
+    "yaml": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ootakazuhiko/test-book-20250710-01.git"
+  },
+  "author": "ITDO Inc.",
+  "license": "MIT"
+}

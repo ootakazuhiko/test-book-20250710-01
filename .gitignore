@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output (docs is generated)
+# docs/ は生成されるが、GitHub Pagesのためにコミットする
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
