@@ -3,8 +3,6 @@ layout: book
 title: "第8章：AIとの創造的協働"
 ---
 
-[← トップに戻る]({{ site.baseurl }}/)
-
 # 第8章：AIとの創造的協働
 
 

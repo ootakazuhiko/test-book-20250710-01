@@ -3,8 +3,6 @@ layout: book
 title: "第6章：AIの出力評価と改善"
 ---
 
-[← トップに戻る]({{ site.baseurl }}/)
-
 # 第6章：AIの出力評価と改善
 
 
