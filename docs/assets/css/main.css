@@ -56,6 +56,16 @@ body {
 .header-title {
   text-decoration: none;
   color: inherit;
+  max-width: calc(100vw - 200px);
+  overflow: hidden;
+}
+
+.title-full {
+  display: block;
+}
+
+.title-short {
+  display: none;
 }
 
 .github-link {
@@ -358,7 +368,14 @@ body {
   z-index: 200;
 }
 
-/* Responsive */
+/* Tablet Responsive */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .header-title h1 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile Responsive */
 @media (max-width: 768px) {
   .book-layout {
     grid-template-areas: 
@@ -378,6 +395,14 @@ body {
 
   .header-title h1 {
     font-size: 1.2rem;
+  }
+
+  .title-full {
+    display: none;
+  }
+
+  .title-short {
+    display: block;
   }
 
   .book-sidebar {
